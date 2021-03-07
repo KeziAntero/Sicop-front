@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="../plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../assets/css/all.css">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png"/>
+	<title>SICOP | Fornecedores</title>
+</head>
+<body>
+    <div id="search-results" style="display: none;">
+        Nenhum dado encontrado
+    </div>
+    <nav class="topnav">
+        <div class="logo">
+            <img src="../assets/img/logo.png" alt="logo">
+            <a href="#" class="display-sm display-md" id="menu"><i class="fa fa-list-ul"></i></a>
+            <a href="index.html" class="hidden-sm"></a>
+        </div>
+        <div class="user">
+            <div style="float: right;">
+                <a href="#"><i class="fa fa-user"></i> Kézia</a>
+                <a href="#"><i class="fa fa-power-off"></i></a>
+            </div>
+        </div>
+    </nav>
+   
+   <aside class="sidenav hidden-sm hidden-md" id="nav">
+       <div class="list">
+           <a href="index.html"><i class="fa fa-home"></i> Home</a>
+           <a href="contratos.html"><i class="fa fa-edit"></i> Contratos</a>
+           <a href="protocolos.html"><i class="fas fa-exchange-alt"></i> Protocolos</a>
+           <a href="departamentos.html"><i class="fas fa-building"></i> Departamentos</a>
+           <a href="fornecedores.html"><i class="fas fa-shopping-cart"></i> Fornecedores</a>
+           <a href="usuarios.html"><i class="fa fa-users"></i> Usuários</a>
+           <a href="#"><i class="fa fa-cogs"></i> Configurações</a>
+       </div>
+   </aside>
+
+   <main class="content">
+      <br>
+    <h1>Fornecedores</h1><br>
+      <div class="grid">
+          
+          <div class="painel">
+              <div class="painel-header">
+                <a href="#" class="btn btn-green btn-lg"><i class="fas fa-plus"></i> Adicionar</a>
+                <div>
+                    <form action="#" method="post" class="hidden-sm">
+                        <input type="text" name="search" id="search" placeholder="Procurar...">
+                        <i class="fa fa-search"></i>
+                    </form>
+                  </div>
+               
+                 <a href="#" class="btn btn-white"><i class="fas fa-print"></i> Imprimir relatório</a>
+              </div>
+
+            <div class="painel-body">
+                
+                <table class="zebra">
+                    <tr>
+                        <th>CNPJ</th>
+                        <th>Fornecedor</th>
+                        <th>Ramo</th>
+                        <th>Endereço</th>
+                        <th>Telefone</th>
+                        <th>Ações</th>
+                    </tr>
+                    <tr>
+                        <td>01.000.000/0001-00</td>
+                        <td>chuck norris LTDA</td>
+                        <td>Alimentos</td>
+                        <td>Rua logo ali</td>
+                        <td>84 3281-5600</td>
+                        <td>
+                            <a href="#" class="btn btn-red"><i class="fa fa-trash"></i></a>
+                            <a href="#" class="btn btn-green"><i class="fa fa-eye"></i></a>
+                            <a href="#" class="btn btn-orange"><i class="fa fa-edit"></i></a>
+                        </td>
+                    </tr>
+                 
+                </table>
+              </div>
+          </div>
+
+          
+          </div>
+      </div>
+   </main>
+   <script src="../assets/js/main.js"></script>
+   <script src="../assets/js/modal.js"></script>
+   <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+
+</html>
