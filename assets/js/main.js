@@ -16,11 +16,11 @@ function populateUFs() {
           ufSelect.innerHTML += `<option value="${state.id}">${state.nome}</option>`;
         }
       });
-  }
+}
   
   populateUFs();
   
-  function getCities(event) {
+function getCities(event) {
     const citySelect = document.querySelector('select[name=city]');
     const stateInput = document.querySelector('input[name=state]');
   
@@ -43,7 +43,7 @@ function populateUFs() {
   
         citySelect.disabled = false;
       });
-  }
+}
   
   document.querySelector('select[name=uf]').addEventListener('change', getCities);
   
